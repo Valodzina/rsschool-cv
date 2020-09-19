@@ -1,0 +1,98 @@
+﻿body, header, section, h1, h2, h3, h4, h5, h6, p, footer, a, div {
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lavender;
+}
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    
+}
+
+
+main {
+    font-size: 10vh;
+    font-style: italic;
+    text-align: center;
+    padding-top: 2vh;
+    padding-bottom: 6vh;
+    text-transform: uppercase;
+}
+
+.information {
+    font-size: 24px;
+    width: 80%;
+    margin: 100px auto 50px;
+    vertical-align: bottom;
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, .6);
+}
+
+
+.header {
+    height: 50vh;
+    background-color: #eee;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.elementleft {
+    width: 30%;
+    height: 550px;
+    margin-bottom: 0;
+    padding: 25px 25px 5px;
+    display: inline-block;
+    margin-right: -6px;
+    margin-left: -6px;
+    background-color: rgb(133, 146, 158);
+}
+.elementright {
+    vertical-align: top;
+    width: 70%;
+    height: 550px;
+    margin-bottom: 0;
+    padding: 25px 25px 5px;
+    display: inline-block;
+    margin-right: -6px;
+    background-color: rgb(174, 182, 191 );
+}
+.inftext {
+    font-size: 15px;
+    text-transform: none;
+}
+.inftexts {
+    font-size: 20px;
+    text-transform: none;
+}
+.contacts {
+    font-size: 17px;
+    text-transform: none;
+}
+.elimg {
+    width: 300px;
+    margin:auto;
+    display: inline-block;
+    box-shadow: 4px 4px 5px rgba(250, 50, 50, .6);
+}
+.name {
+    
+    font-size: 35px;
+}
+.foot {
+    text-align: center;
+    font-size: 17px;
+    text-transform: none;
+}
+
+
+
+
