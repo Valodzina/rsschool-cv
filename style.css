@@ -1,0 +1,102 @@
+﻿*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100%;
+}
+
+body {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+    background-color: #e2c5d4;
+    min-width: 0;
+    height: 100%;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+.btn,
+a,
+button,
+li {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    animation: none;
+    color: #201f22;
+}
+
+footer a,
+footer h5 {
+    color: white;
+}
+
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    width: 100%;
+    margin: 50px auto 40px auto;
+    max-width: 1200px;
+    background-color: #F7F7F7;
+}
+
+.title h2 {
+    text-align: center;
+}
+
+.sale-section {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-color: #F7F7F7;
+}
+
+.footer {
+    padding: 30px 0px 30px 0px;
+    display: flex;
+    justify-content: center;
+    min-width: 100%;
+    width: 100%;
+    margin: 0px auto 0px auto;
+    color: #F7F7F7;
+    background-color: rgb(151, 120, 124);
+    width: 100%;
+    max-width: 1200px;
+}
+
+.grid-products {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.card-product {
+    margin: 30px;
+    background-color: rgb(151, 120, 124, 0.5);
+    padding: 10px 30px;
+}
+
+.card-product p {
+    /* text-align: center; */
+    padding-top: 20px;
+}
+
+.card-product h3 {
+    padding: 20px;
+    font-weight: 600;
+}
